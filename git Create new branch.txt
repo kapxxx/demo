@@ -1,0 +1,38 @@
+#for initilize git  
+	git init
+
+#for puch out code in staging area
+	git add .
+	git add README.md
+
+#for create commit and pass massage thaw what changes we have created
+	git commit -m "first commit"
+
+#choose branch for pushing out code
+	git branch -M main
+
+#give git path 
+	git remote add origin https://github.com/kapxxx/demo.git
+
+#push our code to the git hub
+	git push -u origin main
+
+==================================================================================================================================
+
+for create new branch:
+
+	git branch your_branch_name
+
+for view all branches:
+
+	git branch
+
+for sift to another branch: 
+
+	git checkout your_branch_name
+
+#After all the chanses we have to configer git-Hub should also have our new branch that we have created in local consol for that:
+
+	git push
+
+#it will suggest one command in consol type that command and then it will create branch in git gub and also add our file and chanses.
